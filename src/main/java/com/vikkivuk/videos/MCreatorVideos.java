@@ -1,8 +1,8 @@
 package com.vikkivuk.videos;
 
 import com.vikkivuk.videos.ui.PluginPanelVideos;
-import com.vikkivuk.videos.ui.VideoComponent;
 import com.vikkivuk.videos.ui.VideoDialog;
+import com.vikkivuk.videos.ui.VideoComponent;
 import net.mcreator.plugin.JavaPlugin;
 import net.mcreator.plugin.Plugin;
 import net.mcreator.plugin.events.workspace.MCreatorLoadedEvent;
@@ -13,7 +13,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class MCreatorVideos extends JavaPlugin {
     public static final Logger LOG = LogManager.getLogger("MCreator Videos");
